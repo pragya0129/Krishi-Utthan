@@ -7,6 +7,8 @@ import Summer from "./components/core/Summer";
 import Winter from "./components/core/Winter";
 import Buy from "./pages/Buy";
 import ContactUs from "./pages/Contactus";
+import Faq from "./pages/faq";
+import YellowHighlight from "./components/common/YellowHighlight";
 
 function App() {
   const scrollToSection = (id) => {
@@ -50,7 +52,7 @@ function App() {
       </div>
 
       <div className="recommendation">
-        <h1>Recommendations</h1>
+        <YellowHighlight text="Recommendation" />
         <Router>
           <Routes>
             <Route path="/" element={<Subnavbar />}>
@@ -68,6 +70,8 @@ function App() {
       <div className="buy">
         <Buy />
       </div>
+
+      <Faq />
 
       <ContactUs />
     </div>
