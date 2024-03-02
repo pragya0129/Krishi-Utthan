@@ -9,7 +9,7 @@ import YellowHighlight from "../components/common/YellowHighlight";
 const Buy = () => {
   return (
     <div className="bg-black">
-      <div className="w-11/12 flex flex-col gap-2 justify-center items-center mx-auto  text-[#d3cece] mt-10 mb-10">
+      <div className="w-11/12 flex flex-col gap-2 justify-center items-center mx-auto  text-[#d3cece] mt-10">
         {/* Heading */}
         <div>
           <h2 className="text-[4rem]">

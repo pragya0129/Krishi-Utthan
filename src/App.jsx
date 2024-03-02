@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Summer from "./components/core/Summer";
 import Winter from "./components/core/Winter";
 import Buy from "./pages/Buy";
+import ContactUs from "./pages/Contactus";
 
 function App() {
   const scrollToSection = (id) => {
@@ -67,6 +68,8 @@ function App() {
       <div className="buy">
         <Buy />
       </div>
+
+      <ContactUs />
     </div>
   );
 }
