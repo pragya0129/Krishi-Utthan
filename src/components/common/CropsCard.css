@@ -6,8 +6,6 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
   background-color: #fff;
-  display: flex;
-  flex-direction: column;
   max-width: 300px;
 }
 
@@ -43,4 +41,10 @@
   .card {
     max-width: 100%;
   }
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

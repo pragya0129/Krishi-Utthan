@@ -8,6 +8,10 @@ function Home() {
         </span>
       </div>
       <br></br>
+      <p className="animtext">
+        Where Tradition Meets Technology for Sustainable Agriculture.
+      </p>
+      <br></br>
       <div className="text">
         Krishi Utthan is a comprehensive platform empowering farmers with
         essential tools and information to optimize their agricultural
@@ -17,10 +21,6 @@ function Home() {
         <br></br>
         <br></br>
       </div>
-
-      <p className="animtext">
-        Where Tradition Meets Technology for Sustainable Agriculture.
-      </p>
     </div>
   );
 }
