@@ -1,5 +1,7 @@
 import "./App.css";
 import Home from "./components/core/Home";
+import Subnavbar from "./components/core/Subnavbar";
+
 function App() {
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
@@ -40,6 +42,10 @@ function App() {
 
       <div className="top" id="home">
         <Home />
+      </div>
+
+      <div className="crops">
+        <Subnavbar />
       </div>
     </div>
   );
