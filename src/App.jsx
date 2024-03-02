@@ -9,6 +9,7 @@ import Buy from "./pages/Buy";
 import ContactUs from "./pages/Contactus";
 import Faq from "./pages/faq";
 import YellowHighlight from "./components/common/YellowHighlight";
+import WeatherInfo from "./pages/Weather";
 
 function App() {
   const scrollToSection = (id) => {
@@ -74,6 +75,8 @@ function App() {
       <Faq />
 
       <ContactUs />
+
+      <WeatherInfo />
     </div>
   );
 }
