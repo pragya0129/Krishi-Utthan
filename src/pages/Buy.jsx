@@ -10,7 +10,6 @@ const Buy = () => {
   return (
     <div className="bg-black">
       <div className="w-11/12 flex flex-col gap-2 justify-center items-center mx-auto  text-[#d3cece] mt-10">
-        {/* Heading */}
         <div>
           <h2 className="text-[4rem]">
             <YellowHighlight text={"Buy These"} />
@@ -18,7 +17,6 @@ const Buy = () => {
         </div>
 
         <div className="flex justify-center items-center flex-wrap gap-x-14 w-[80%]">
-          {/* Product Card */}
           <ProductCard
             image={Pump}
             name={"Portable Garden Pump Sprayer"}

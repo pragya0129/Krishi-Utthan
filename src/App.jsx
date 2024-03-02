@@ -13,6 +13,7 @@ import ExpertAdvice from "./pages/ExpertAdvice";
 import Monsoon from "./components/core/Monsoon";
 import Spring from "./components/core/Spring";
 import AllYear from "./components/core/AllYear";
+import Tutorial from "./pages/tutorials";
 
 function App() {
   const scrollToSection = (id) => {
@@ -31,15 +32,24 @@ function App() {
             <a onClick={() => scrollToSection("home")}>Home</a>
           </li>
           <li>
-            <a onClick={() => scrollToSection("buy")}>Buy</a>
-          </li>
-          <li>
             <a onClick={() => scrollToSection("recommendation")}>
               Recommendation
             </a>
           </li>
           <li>
+            <a onClick={() => scrollToSection("buy")}>Buy</a>
+          </li>
+
+          <li>
             <a onClick={() => scrollToSection("weather")}>Weather</a>
+          </li>
+
+          <li>
+            <a onClick={() => scrollToSection("advice")}>Expert</a>
+          </li>
+
+          <li>
+            <a onClick={() => scrollToSection("tutorial")}>Tutorial</a>
           </li>
           <li>
             <a onClick={() => scrollToSection("faq")}>FAQ</a>
@@ -77,10 +87,15 @@ function App() {
         <WeatherInfo />
       </div>
 
-      <div className="advice">
+      <div className="advice" id="advice">
         <img src="/public/quotes.gif" width="80px"></img>
         <YellowHighlight text="Expert Advice" />
         <ExpertAdvice />
+      </div>
+
+      <div className="tutorial" id="tutorial">
+        <YellowHighlight text="Tutorial Videos" />
+        <Tutorial />
       </div>
 
       <div id="faq">

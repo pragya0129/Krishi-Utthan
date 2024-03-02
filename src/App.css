@@ -4,20 +4,20 @@
 }
 
 ::-webkit-scrollbar {
-  width: 6px; 
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #f0f0f0; 
+  background-color: #f0f0f0;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: yellow; 
+  background-color: yellow;
 }
 
 .body {
-  -ms-overflow-style: none; 
-  scrollbar-width: none; 
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 * {
@@ -145,6 +145,14 @@
   padding: 6px 0;
   text-decoration: none;
 } */
+
+.tutorial {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
 
 .advice {
   display: flex;

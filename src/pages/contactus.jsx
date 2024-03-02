@@ -20,7 +20,7 @@ const ContactUs = () => {
           Institute of Science And Technology
         </p>
       </div>
-      {/* Cards */}
+      
       <div className="flex flex-row flex-wrap gap-14 w-[60%] rounded-md mt-14">
         <ProfileCard
           name={"Pragya Gaur"}
