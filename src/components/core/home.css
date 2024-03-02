@@ -1,44 +1,33 @@
+@font-face {
+  font-family: "Hinglish";
+  src: url("/src/fonts/SAMAN___.TTF") format("truetype");
+}
+
 .heading {
   background: linear-gradient(to right, #0074d9 0%, #7fdbff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 3.75rem;
+  font-family: "Hinglish";
   font-weight: bold;
+}
+
+.hindi {
+  font-family: "Mukta", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .text {
   display: flex;
   justify-content: center;
-
   align-items: center;
   font-size: 1.1rem;
-  font-style: normal;
-  margin-left: 30px;
   max-width: 600px;
-  margin-right: 30px;
   color: #8b8b8b;
   font-weight: lighter;
 }
 
 .animtext {
-  /* animation: glowEffect 5s infinite alternate; */
   color: #ffffff;
 }
-
-/* @keyframes glowEffect {
-  0% {
-    text-shadow: 0 0 10px #000000, 0 0 20px #8bc9ff, 0 0 30px #8bc9ff,
-      0 0 40px #8bc9ff, 0 0 50px #8bc9ff, 0 0 60px #8bc9ff, 0 0 70px #8bc9ff;
-    opacity: 0.7;
-  }
-  50% {
-    text-shadow: 0 0 5px #000000, 0 0 10px #8bc9ff, 0 0 15px #8bc9ff,
-      0 0 20px #8bc9ff, 0 0 25px #8bc9ff, 0 0 30px #8bc9ff, 0 0 35px #8bc9ff;
-    opacity: 1;
-  }
-  100% {
-    text-shadow: 0 0 10px #000000, 0 0 20px #8bc9ff, 0 0 30px #8bc9ff,
-      0 0 40px #8bc9ff, 0 0 50px #8bc9ff, 0 0 60px #8bc9ff, 0 0 70px #8bc9ff;
-    opacity: 0.7;
-  }
-} */

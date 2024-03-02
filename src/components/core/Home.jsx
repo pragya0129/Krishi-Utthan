@@ -3,7 +3,9 @@ function Home() {
   return (
     <div className="top">
       <h1>
-        <span className="heading">Krishi Utthan</span>
+        <span className="heading">
+          Krishi <span className="hindi">उत्थान</span>
+        </span>
       </h1>
       <br></br>
       <div className="text">

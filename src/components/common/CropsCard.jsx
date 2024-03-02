@@ -1,6 +1,6 @@
 import "./CropsCard.css";
 import PropTypes from "prop-types";
-function CropsCard({ image, title, description, climate, season, uses }) {
+function CropsCard({ image, title, description, climate, uses }) {
   return (
     <div className="card">
       <img src={image} alt={title} />
@@ -8,9 +8,11 @@ function CropsCard({ image, title, description, climate, season, uses }) {
         <h2>{title}</h2>
         <p>{description}</p>
         <p>
-          Climate: {climate} ,Season: {season}
+          <h4>Climate:</h4> {climate}
         </p>
-        <p>Uses: {uses}</p>
+        <p>
+          <h4>Uses:</h4> {uses}
+        </p>
       </div>
     </div>
   );

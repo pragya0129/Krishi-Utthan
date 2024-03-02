@@ -12,6 +12,15 @@ function Subnavbar() {
           <li>
             <Link to="winter">Winter</Link>
           </li>
+          <li>
+            <Link to="monsoon">Monsoon</Link>
+          </li>
+          <li>
+            <Link to="spring">Spring</Link>
+          </li>
+          <li>
+            <Link to="allyear">All Year</Link>
+          </li>
         </ul>
       </div>
       <Outlet />

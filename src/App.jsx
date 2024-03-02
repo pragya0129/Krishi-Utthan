@@ -2,9 +2,10 @@ import "./App.css";
 import Home from "./components/core/Home";
 import Subnavbar from "./components/core/Subnavbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Subsection from "./components/core/Subsection";
+
 import Summer from "./components/core/Summer";
-import Weather from "./components/common/Weather";
+import Winter from "./components/core/Winter";
+
 
 function App() {
   const scrollToSection = (id) => {
@@ -18,9 +19,8 @@ function App() {
     <div className="w-screen min-h-screen bg-richblack-900 flex flex-col font-inter">
       <div className="navigation">
         <ul className="nav-links">
-          <li>
-            <img src=""></img>
-          </li>
+          <img src="/public/logo (1).png"></img>
+
           <li>
             <a onClick={() => scrollToSection("home")}>Home</a>
           </li>
@@ -48,12 +48,16 @@ function App() {
         <Home />
       </div>
 
-      <div className="crops">
+      <div className="recommendation">
+        <h1>Recommendations</h1>
         <Router>
           <Routes>
             <Route path="/" element={<Subnavbar />}>
               <Route path="summer" element={<Summer />} />
-              <Route path="winter" element={<Summer />} />
+              <Route path="winter" element={<Winter />} />
+              <Route path="monsoon" element={<Winter />} />
+              <Route path="spring" element={<Winter />} />
+              <Route path="allyear" element={<Winter />} />
               <Route index element={<Summer />} />
             </Route>
           </Routes>
@@ -61,7 +65,6 @@ function App() {
       </div>
 
       <div className="weather">
-        
       </div>
     </div>
   );
