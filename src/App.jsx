@@ -1,9 +1,6 @@
-import { useState } from "react";
-
 import "./App.css";
-
+import Home from "./components/core/Home";
 function App() {
-  const [count, setCount] = useState(0);
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -12,7 +9,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="w-screen min-h-screen bg-richblack-900 flex flex-col font-inter">
       <div className="navigation">
         <ul className="nav-links">
           <li>
@@ -42,18 +39,7 @@ function App() {
       </div>
 
       <div className="top" id="home">
-        <br className="showhide"></br>
-        <h1>
-          <span className="heading">Krishi Utthan</span>
-        </h1>
-        <br></br>
-        <div className="text">
-          description
-          <br></br>
-          <br></br>
-        </div>
-
-        <p className="animtext">animated text</p>
+        <Home />
       </div>
     </div>
   );
