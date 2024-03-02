@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Summer from "./components/core/Summer";
 import Winter from "./components/core/Winter";
 import Buy from "./pages/Buy";
-import ContactUs from "./pages/Contactus";
+import ContactUs from "./pages/contactus";
 import Faq from "./pages/faq";
 import YellowHighlight from "./components/common/YellowHighlight";
 import WeatherInfo from "./pages/Weather";
