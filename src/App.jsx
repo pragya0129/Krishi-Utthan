@@ -22,8 +22,8 @@ function App() {
   return (
     <div className="max-w-screen min-h-screen bg-richblack-900 flex flex-col">
       <div className="navigation">
-        <ul className="nav-links">
-          <img src="/public/Images/name.png "></img>
+        <img src="/public/Images/name.png" alt="logo" />
+        <ul className="nav-links bg-gradient-to-r from-sky-400 to-gray-300 ">
           <li>
             <a onClick={() => scrollToSection("home")}>Home</a>
           </li>

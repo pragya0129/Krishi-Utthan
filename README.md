@@ -15,3 +15,5 @@ Image Credits:
 
 Navigation Hover Effect:
 https://www.codingnepalweb.com/hover-animation-in-html-css/
+
+Weather API: https://github.com/sharma-shivang/weather-app

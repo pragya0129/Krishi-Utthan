@@ -39,14 +39,16 @@
 }
 
 .navigation img {
-  max-width: 7.7rem;
+  max-width: 10rem;
 }
 
 .nav-links {
   display: flex;
   background: #000000;
+  height: 40px;
   opacity: 100%;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgb(207, 236, 254);
   list-style: none;
   margin: 0;
   padding: 0;
@@ -58,10 +60,10 @@
 
 .nav-links li a {
   position: relative;
-  color: #ffffff;
+  color: #000000;
   font-size: 20px;
   font-weight: 500;
-  padding: 6px 0;
+  padding: 5px;
   text-decoration: none;
 }
 
@@ -72,8 +74,8 @@
   left: 0;
   height: 3px;
   width: 0%;
-  background: #efc034;
-  border-radius: 12px;
+  background: rgb(0, 21, 248);
+  border-radius: 9px;
   transition: all 0.4s ease;
 }
 
