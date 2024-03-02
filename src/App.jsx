@@ -52,7 +52,7 @@ function App() {
         <Home />
       </div>
 
-      <div className="recommendation">
+      <div className="recommendation" id="recommendation">
         <YellowHighlight text="Recommendation" />
         <Router>
           <Routes>
@@ -67,16 +67,22 @@ function App() {
           </Routes>
         </Router>
       </div>
+      
 
-      <div className="buy">
+      <div className="buy" id="buy">
         <Buy />
       </div>
+      <div id="weather">
+        <WeatherInfo />
+      </div>
 
-      <Faq />
+      <div id="faq">
+        <Faq />
+      </div>
 
-      <ContactUs />
-
-      <WeatherInfo />
+      <div id="about">
+        <ContactUs />
+      </div>
     </div>
   );
 }

@@ -18,7 +18,7 @@ const ContactUs = () => {
       {/* Sub Heading */}
       <div>
         <p className="text-base  mt-5">
-          We are team <YellowHighlight text={"DARAI GHOODA"} /> from SRM
+          We are team <YellowHighlight text={" DARAI GHODA "} /> from SRM
           Institute of Science And Technology
         </p>
       </div>
