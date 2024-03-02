@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Summer from "./components/core/Summer";
 import Winter from "./components/core/Winter";
-
+import Buy from "./pages/Buy";
 
 function App() {
   const scrollToSection = (id) => {
@@ -16,7 +16,7 @@ function App() {
   };
 
   return (
-    <div className="w-screen min-h-screen bg-richblack-900 flex flex-col font-inter">
+    <div className="max-w-screen min-h-screen bg-richblack-900 flex flex-col">
       <div className="navigation">
         <ul className="nav-links">
           <img src="/public/logo (1).png"></img>
@@ -64,7 +64,8 @@ function App() {
         </Router>
       </div>
 
-      <div className="weather">
+      <div className="buy">
+        <Buy />
       </div>
     </div>
   );

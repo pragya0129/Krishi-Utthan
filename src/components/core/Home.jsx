@@ -1,12 +1,12 @@
 import "./home.css";
 function Home() {
   return (
-    <div className="top">
-      <h1>
-        <span className="heading">
+    <div className="">
+      <div className="h-24">
+        <span className="heading ">
           Krishi <span className="hindi">उत्थान</span>
         </span>
-      </h1>
+      </div>
       <br></br>
       <div className="text">
         Krishi Utthan is a comprehensive platform empowering farmers with
