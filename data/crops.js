@@ -12,7 +12,7 @@ export const crops = [
   },
   {
     Maize: {
-      image:"../public/Images/maize.jpg", 
+      image: "../public/Images/maize.jpg",
       climate:
         "Maize can be grown in a variety of climates, from tropical to temperate.",
       description:
@@ -23,7 +23,7 @@ export const crops = [
   },
   {
     Peas: {
-      image:"../public/Images/peas.jpg",
+      image: "../public/Images/peas.jpg",
       climate:
         "Peas thrive in cool weather and can be grown in both spring and fall.",
       description:
@@ -79,7 +79,7 @@ export const crops = [
   },
   {
     Wheat: {
-      image: "../public/Images/wheat.jpg", 
+      image: "../public/Images/wheat.jpg",
       climate:
         "Wheat is grown in a variety of climates, from temperate to subtropical.",
       description:
@@ -102,7 +102,7 @@ export const crops = [
 
   {
     Banana: {
-      image: "../public/Images/banana.jpg",
+      image: "../public/Images/banana.webp",
       description: "Bananas are one of the most popular fruits in the world.",
       climate: "Bananas thrive in warm, tropical climates.",
       season: "Monsoon",
@@ -122,7 +122,7 @@ export const crops = [
   },
   {
     Carrots: {
-      image: "../public/Images/carrot.jpg",
+      image: "../public/Images/carrots.jpg",
       description:
         "Carrots are root vegetables known for their vibrant orange color and sweet, crunchy taste.",
       climate: "Carrots thrive in cool weather and can tolerate some frost.",
@@ -132,7 +132,7 @@ export const crops = [
   },
   {
     Apple: {
-      image: "../public/Images/apple.jpg",
+      image: "../public/Images/apples.jpg",
       description: "Apples are one of the most widely cultivated tree fruits.",
       climate: "Apples are grown in temperate climates.",
       season: "Winter",
@@ -172,7 +172,7 @@ export const crops = [
   },
   {
     Mango: {
-      image: "../public/Images/mango.jpg", 
+      image: "../public/Images/mango.jpg",
       description:
         "Mango is a tropical fruit known for its sweet and juicy flesh.",
       climate: "Mango trees thrive in warm, tropical climates.",
@@ -182,7 +182,7 @@ export const crops = [
   },
   {
     Coconut: {
-      image:"../public/Images/coconut.jpg",
+      image: "../public/Images/coconut.jpg",
       description:
         "Coconut is a tropical fruit with a hard shell and sweet, edible flesh.",
       climate:
@@ -193,7 +193,7 @@ export const crops = [
   },
   {
     Rubber: {
-      image:"../public/Images/rubber.jpg",
+      image: "../public/Images/rubber.jpg",
       description:
         "Rubber is a natural polymer derived from the latex of certain plants, primarily the rubber tree.",
       climate:
@@ -204,7 +204,7 @@ export const crops = [
   },
   {
     Sugarcane: {
-      image: "../public/Images/sugarcane.jpg",
+      image: "../public/Images/sugarcane.jpeg",
       description:
         "Sugarcane is a tall perennial grass that is used to produce sugar and other products.",
       climate: "Sugarcane thrives in tropical and subtropical climates.",

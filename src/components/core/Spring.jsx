@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { crops } from "../../../data/crops.js";
 import CropsCard from "../common/CropsCard.jsx";
 
-function Winter() {
+function Spring() {
   const [filteredCrops, setFilteredCrops] = useState([]);
 
   useEffect(() => {
@@ -21,7 +21,7 @@ function Winter() {
       setFilteredCrops(filtered);
     };
 
-    filterCropsBySeason("winter");
+    filterCropsBySeason("spring");
   }, []);
 
   return (
@@ -44,4 +44,4 @@ function Winter() {
   );
 }
 
-export default Winter;
+export default Spring;

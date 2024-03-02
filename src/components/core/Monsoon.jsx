@@ -1,10 +1,9 @@
-// import CropsCard from "../common/CropsCard";
 import "../common/CropsCard.css";
 import { useState, useEffect } from "react";
 import { crops } from "../../../data/crops.js";
 import CropsCard from "../common/CropsCard.jsx";
 
-function Winter() {
+function Monsoon() {
   const [filteredCrops, setFilteredCrops] = useState([]);
 
   useEffect(() => {
@@ -21,7 +20,7 @@ function Winter() {
       setFilteredCrops(filtered);
     };
 
-    filterCropsBySeason("winter");
+    filterCropsBySeason("monsoon");
   }, []);
 
   return (
@@ -44,4 +43,4 @@ function Winter() {
   );
 }
 
-export default Winter;
+export default Monsoon;

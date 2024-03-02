@@ -8,7 +8,8 @@ Future Implementation:- For future upgrades we can include the following functio
 
 1. Using Machine Learning we can gather insights from the data sets about crops available on government sites. These insights can be then included in the website as stats like graphs, and also some advanced features like recommending crops based on current location and NPK (Nitrogen, Phorphosus and Potassium) concentration of the soil.
 2. Using the insights gained from the data set based on location, we can also implement a dynamic interactive calander which displays the crops which can be sown and grown at that particular day/month or season.
-3.
+3. Farmers can upload images of their crops, and the website uses image recognition technology to detect any signs of diseases or pests.
+4. We can predict the future prices for crops by analyzing the market price data, using which they can have an idea of when to sell their crops for maximum input.
 
 Packages:
 

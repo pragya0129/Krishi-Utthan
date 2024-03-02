@@ -5,11 +5,14 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Summer from "./components/core/Summer";
 import Winter from "./components/core/Winter";
 import Buy from "./pages/Buy";
-import ContactUs from "./pages/contactus";
+import ContactUs from "./pages/Contactus";
 import Faq from "./pages/faq";
 import YellowHighlight from "./components/common/YellowHighlight";
 import WeatherInfo from "./pages/Weather";
 import ExpertAdvice from "./pages/ExpertAdvice";
+import Monsoon from "./components/core/Monsoon";
+import Spring from "./components/core/Spring";
+import AllYear from "./components/core/AllYear";
 
 function App() {
   const scrollToSection = (id) => {
@@ -58,9 +61,9 @@ function App() {
             <Route path="/" element={<Subnavbar />}>
               <Route path="summer" element={<Summer />} />
               <Route path="winter" element={<Winter />} />
-              <Route path="monsoon" element={<Winter />} />
-              <Route path="spring" element={<Winter />} />
-              <Route path="allyear" element={<Winter />} />
+              <Route path="monsoon" element={<Monsoon />} />
+              <Route path="spring" element={<Spring />} />
+              <Route path="allyear" element={<AllYear />} />
               <Route index element={<Summer />} />
             </Route>
           </Routes>
