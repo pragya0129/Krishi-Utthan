@@ -22,38 +22,33 @@ const Buy = () => {
           <ProductCard
             image={Pump}
             name={"Portable Garden Pump Sprayer"}
-            price1={200}
-            price2={100}
+            price1={2000}
+            price2={1599}
           />
           <ProductCard
             image={Manure}
-            name={"Portable Garden Pump Sprayer"}
-            price1={200}
-            price2={100}
+            name={"Organic Manure"}
+            price1={1299}
+            price2={899}
           />
           <ProductCard
             image={Pesticide}
-            name={"Portable Garden Pump Sprayer"}
-            price1={200}
-            price2={100}
+            name={"Pesticides"}
+            price1={500}
+            price2={399}
           />
           <ProductCard
             image={wheetSeeds}
-            name={"Portable Garden Pump Sprayer"}
+            name={"Wheet Seeds"}
             price1={200}
-            price2={100}
+            price2={99}
           />
-          <ProductCard
-            image={Hoe}
-            name={"Portable Garden Pump Sprayer"}
-            price1={200}
-            price2={100}
-          />
+          <ProductCard image={Hoe} name={"Hoe"} price1={1000} price2={799} />
           <ProductCard
             image={riceSeeds}
-            name={"Portable Garden Pump Sprayer"}
-            price1={200}
-            price2={100}
+            name={"Rice Seeds"}
+            price1={199}
+            price2={149}
           />
         </div>
       </div>

@@ -5,13 +5,21 @@ function CropsCard({ image, title, description, climate, uses }) {
     <div className="card">
       <img src={image} alt={title} />
       <div className="card-content">
-        <h2>{title}</h2>
+        <h2>
+          <b>{title}</b>
+        </h2>
         <p>{description}</p>
         <p>
-          <h4>Climate:</h4> {climate}
+          <h4>
+            <b>Climate:</b>
+          </h4>{" "}
+          {climate}
         </p>
         <p>
-          <h4>Uses:</h4> {uses}
+          <h4>
+            <b>Uses:</b>
+          </h4>{" "}
+          {uses}
         </p>
       </div>
     </div>

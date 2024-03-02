@@ -3,6 +3,23 @@
   src: url("/src/fonts/SAMAN___.TTF") format("truetype");
 }
 
+::-webkit-scrollbar {
+  width: 6px; /* You can adjust the width as needed */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f0f0f0; /* Color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: yellow; /* Color of the thumb */
+}
+
+.body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
 * {
   margin: 0;
   padding: 0;
