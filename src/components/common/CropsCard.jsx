@@ -27,7 +27,7 @@ function CropsCard({ image, title, description, climate, uses }) {
 }
 
 CropsCard.propTypes = {
-  image: PropTypes.string.isRequired,
+  //   image: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
 };
 
