@@ -7,7 +7,7 @@ function Home() {
       </h1>
       <br></br>
       <div className="text">
-        description
+       Krishi Utthan is a comprehensive platform empowering farmers with essential tools and information to optimize their agricultural practices. Seamlessly blending traditional wisdom with modern technology, Krishi Utthan offers personalized recommendations and valuable insights for informed decision-making. 
         <br></br>
         <br></br>
       </div>
