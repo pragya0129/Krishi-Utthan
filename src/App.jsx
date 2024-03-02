@@ -1,6 +1,10 @@
 import "./App.css";
 import Home from "./components/core/Home";
 import Subnavbar from "./components/core/Subnavbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Subsection from "./components/core/Subsection";
+import Summer from "./components/core/Summer";
+import Weather from "./components/common/Weather";
 
 function App() {
   const scrollToSection = (id) => {
@@ -45,7 +49,19 @@ function App() {
       </div>
 
       <div className="crops">
-        <Subnavbar />
+        <Router>
+          <Routes>
+            <Route path="/" element={<Subnavbar />}>
+              <Route path="summer" element={<Summer />} />
+              <Route path="winter" element={<Summer />} />
+              <Route index element={<Summer />} />
+            </Route>
+          </Routes>
+        </Router>
+      </div>
+
+      <div className="weather">
+        
       </div>
     </div>
   );

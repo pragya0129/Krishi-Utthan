@@ -1,17 +1,20 @@
+import { Link } from "react-router-dom";
 import "./Subnavbar.css";
+import { Outlet } from "react-router-dom";
 function Subnavbar() {
   return (
     <div>
       <div className="navigation2">
         <ul className="subnav-links">
           <li>
-            <a href="summer">Summer</a>
+            <Link to="summer">Summer</Link>
           </li>
           <li>
-            <a href="winter">Winter</a>
+            <Link to="winter">Winter</Link>
           </li>
         </ul>
       </div>
+      <Outlet />
     </div>
   );
 }
