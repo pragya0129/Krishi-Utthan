@@ -36,17 +36,9 @@
   padding: 6px 0;
   text-decoration: none;
 }
-.nav-links li a:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 3px;
-  width: 0%;
-  background: yellow;
-  border-radius: 12px;
+
+.nav-links :hover {
+  background-color: white;
   transition: all 0.4s ease;
-}
-.nav-links li a:hover:before {
-  width: 100%;
+  color: black;
 }
