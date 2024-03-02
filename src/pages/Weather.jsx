@@ -38,7 +38,6 @@ const WeatherInfo = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // Get user's geolocation
         if (navigator.geolocation) {
           navigator.geolocation.getCurrentPosition(
             async (position) => {
@@ -80,18 +79,6 @@ const WeatherInfo = () => {
   }, []);
 
   return (
-    // <div className="weather-app">
-    //   {errorMessage && <div className="error-message">{errorMessage}</div>}
-    //   {weatherData && (
-    //     <div className="weather-info">
-    //       <h2>Weather Information</h2>
-    //       <p>Temperature: {weatherData.main.temp}°C</p>
-    //       <p>Humidity: {weatherData.main.humidity}%</p>
-    //       <p>Wind Speed: {weatherData.wind.speed} m/s</p>
-    //       <p>Cloudiness: {weatherData.clouds.all}%</p>
-    //     </div>
-    //   )}
-    // </div>
     <div className="weatherApp">
       {errorMessage && <div className="error-message">{errorMessage}</div>}
       {weatherData && location && (
@@ -105,20 +92,18 @@ const WeatherInfo = () => {
           <div className="text-[2rem] mb-7">{weatherData.main.temp}°C</div>
 
           <div className="flex gap-x-32 items-center justify-between mb-14">
-            {/* Wind  */}
             <div className="flex flex-col justify-center items-center">
               <img src={Wind} height={12} width={122} />
               <p className="font-semibold">WindSpeed</p>
               <p>{weatherData.wind.speed} m/s</p>
             </div>
 
-            {/* Humidity */}
             <div className="flex flex-col justify-center items-center">
               <img src={Humidity} height={12} width={100} className="mb-6" />
               <p className="font-semibold">Humidity</p>
               <p>{weatherData.main.humidity}%</p>
             </div>
-            {/* Clouds */}
+
             <div className="flex flex-col justify-center items-center">
               <img src={Clouds} height={12} width={112} className="mb-5" />
               <p className="font-semibold">Clouds</p>
@@ -132,5 +117,3 @@ const WeatherInfo = () => {
 };
 
 export default WeatherInfo;
-
-// export default WeatherInfo;

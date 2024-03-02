@@ -4,20 +4,20 @@
 }
 
 ::-webkit-scrollbar {
-  width: 6px; /* You can adjust the width as needed */
+  width: 6px; 
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #f0f0f0; /* Color of the track */
+  background-color: #f0f0f0; 
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: yellow; /* Color of the thumb */
+  background-color: yellow; 
 }
 
 .body {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
 }
 
 * {

@@ -11,6 +11,7 @@ export const crops = [
   },
   {
     Maize: {
+     
       climate:
         "Maize can be grown in a variety of climates, from tropical to temperate.",
       description:
@@ -62,6 +63,7 @@ export const crops = [
 
   {
     Tomato: {
+
       description:
         "Tomato is a fruit that is commonly used as a vegetable in cooking.",
       climate:

@@ -8,14 +8,12 @@ import YellowHighlight from "../components/common/YellowHighlight";
 const ContactUs = () => {
   return (
     <div className=" flex flex-col gap-2 justify-center items-center mx-auto bg-black text-[#d3cece]">
-      {/* Heading */}
       <div className="flex">
         <h2 className="text-[4rem] ">
           <YellowHighlight text={"KNOW US"} />
         </h2>
       </div>
 
-      {/* Sub Heading */}
       <div>
         <p className="text-base  mt-5">
           We are team <YellowHighlight text={" DARAI GHODA "} /> from SRM
