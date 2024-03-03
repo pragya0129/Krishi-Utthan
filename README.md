@@ -2,6 +2,8 @@
 
 Website : https://krishi-utthan.surge.sh/
 
+![logo (1)](https://github.com/pragya0129/Krishi-Utthan/assets/63705141/75c86429-8ae0-48ce-b29f-ebe0d2a0ed2e)
+
 About:- Krishi Utthan is a comprehensive platform empowering farmers with essential tools and information to optimize their agricultural practices. Seamlessly blending traditional wisdom with modern technology, Krishi Utthan offers personalized recommendations and valuable insights for informed decision-making.
 
 Technology Used:- This website is based on React.js(for frontend) and Pythhon's Flask Library for creating API which has details of various crops based on season in which they can be grown. Further, we used Canva and a bit of Adobe Illustrator to design our logo and some themes for the website.
