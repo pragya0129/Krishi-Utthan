@@ -4,30 +4,6 @@ import Humidity from "../../public/Images/humidity.gif";
 import Clouds from "../../public/Images/clouds.gif";
 import YellowHighlight from "../components/common/YellowHighlight";
 
-// const WeatherInfo = () => {
-//   const API_KEY = "168771779c71f3d64106d8a88376808a";
-//   async function fetchUserWeatherInfo(coordinates) {
-//     const { lat, lon } = coordinates;
-//     // API call
-//     try {
-//       const response = await fetch(
-//         `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`
-//       );
-//       const data = await response.json();
-//       console.log(data);
-//       if (!data.sys) {
-//         throw data;
-//       }
-//     } catch (err) {
-//       console.log("Error aaya hai");
-//     }
-//   }
-
-//   return (
-//
-//   );
-// };
-
 import { useState, useEffect } from "react";
 
 const WeatherInfo = () => {

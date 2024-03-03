@@ -1,7 +1,7 @@
 export const crops = [
   {
     Barley: {
-      image: "../public/Images/barley.jpg",
+      image: "Images/barley.jpg",
       climate:
         "Barley is grown in a variety of climates, from temperate to subtropical.",
       description:
@@ -12,7 +12,7 @@ export const crops = [
   },
   {
     Maize: {
-      image: "../public/Images/maize.jpg",
+      image: "Images/maize.jpg",
       climate:
         "Maize can be grown in a variety of climates, from tropical to temperate.",
       description:
@@ -23,7 +23,7 @@ export const crops = [
   },
   {
     Peas: {
-      image: "../public/Images/peas.jpg",
+      image: "Images/peas.jpg",
       climate:
         "Peas thrive in cool weather and can be grown in both spring and fall.",
       description:
@@ -34,7 +34,7 @@ export const crops = [
   },
   {
     Lettuce: {
-      image: "../public/Images/lettuce.jpg",
+      image: "Images/lettuce.jpg",
       description:
         "Lettuce is a leafy vegetable commonly used in salads and sandwiches.",
       climate:
@@ -45,7 +45,7 @@ export const crops = [
   },
   {
     Radish: {
-      image: "../public/Images/radish.jpg",
+      image: "Images/radish.jpg",
       description:
         "Radish is a root vegetable known for its crisp texture and peppery flavor.",
       climate:
@@ -56,7 +56,7 @@ export const crops = [
   },
   {
     Spinach: {
-      image: "../public/Images/spinach.jpg",
+      image: "Images/spinach.jpg",
       description:
         "Spinach is a leafy green vegetable rich in vitamins and minerals.",
       climate:
@@ -68,7 +68,7 @@ export const crops = [
 
   {
     Tomato: {
-      image: "../public/Images/tomato.jpg",
+      image: "Images/tomato.jpg",
       description:
         "Tomato is a fruit that is commonly used as a vegetable in cooking.",
       climate:
@@ -79,7 +79,7 @@ export const crops = [
   },
   {
     Wheat: {
-      image: "../public/Images/wheat.jpg",
+      image: "Images/wheat.jpg",
       climate:
         "Wheat is grown in a variety of climates, from temperate to subtropical.",
       description:
@@ -90,7 +90,7 @@ export const crops = [
   },
   {
     Rice: {
-      image: "../public/Images/rice.jpg",
+      image: "Images/rice.jpg",
       description:
         "Rice is a staple food for more than half of the world's population.",
       climate:
@@ -102,7 +102,7 @@ export const crops = [
 
   {
     Banana: {
-      image: "../public/Images/banana.webp",
+      image: "Images/banana.webp",
       description: "Bananas are one of the most popular fruits in the world.",
       climate: "Bananas thrive in warm, tropical climates.",
       season: "Monsoon",
@@ -111,7 +111,7 @@ export const crops = [
   },
   {
     Cruciferous: {
-      image: "../public/Images/cruciferous.jpg",
+      image: "Images/cruciferous.jpg",
       description:
         "Cruciferous vegetables belong to the Brassicaceae family and include broccoli, cauliflower, cabbage, and kale.",
       climate:
@@ -122,7 +122,7 @@ export const crops = [
   },
   {
     Carrots: {
-      image: "../public/Images/carrots.jpg",
+      image: "Images/carrots.jpg",
       description:
         "Carrots are root vegetables known for their vibrant orange color and sweet, crunchy taste.",
       climate: "Carrots thrive in cool weather and can tolerate some frost.",
@@ -132,7 +132,7 @@ export const crops = [
   },
   {
     Apple: {
-      image: "../public/Images/apples.jpg",
+      image: "Images/apples.jpg",
       description: "Apples are one of the most widely cultivated tree fruits.",
       climate: "Apples are grown in temperate climates.",
       season: "Winter",
@@ -141,7 +141,7 @@ export const crops = [
   },
   {
     Cotton: {
-      image: "../public/Images/cotton.png",
+      image: "Images/cotton.png",
       description:
         "Cotton is a soft, fluffy staple fiber that grows in a boll, or protective case, around the seeds of the cotton plants of the genus Gossypium in the mallow family Malvaceae.",
       climate: "Cotton is grown in warm climates with moderate rainfall.",
@@ -151,7 +151,7 @@ export const crops = [
   },
   {
     Jute: {
-      image: "../public/Images/jute.jpg",
+      image: "Images/jute.jpg",
       description:
         "Jute is a long, soft, shiny bast fiber that can be spun into coarse, strong threads.",
       climate: "Jute is grown in warm and humid climates.",
@@ -161,7 +161,7 @@ export const crops = [
   },
   {
     Millet: {
-      image: "../public/Images/millet.jpg",
+      image: "Images/millet.jpg",
       description:
         "Millet is a group of small-seeded grasses, grown as cereal crops or grains for fodder and human food.",
       climate:
@@ -172,7 +172,7 @@ export const crops = [
   },
   {
     Mango: {
-      image: "../public/Images/mango.jpg",
+      image: "Images/mango.jpg",
       description:
         "Mango is a tropical fruit known for its sweet and juicy flesh.",
       climate: "Mango trees thrive in warm, tropical climates.",
@@ -182,7 +182,7 @@ export const crops = [
   },
   {
     Coconut: {
-      image: "../public/Images/coconut.jpg",
+      image: "Images/coconut.jpg",
       description:
         "Coconut is a tropical fruit with a hard shell and sweet, edible flesh.",
       climate:
@@ -193,7 +193,7 @@ export const crops = [
   },
   {
     Rubber: {
-      image: "../public/Images/rubber.jpg",
+      image: "Images/rubber.jpg",
       description:
         "Rubber is a natural polymer derived from the latex of certain plants, primarily the rubber tree.",
       climate:
@@ -204,7 +204,7 @@ export const crops = [
   },
   {
     Sugarcane: {
-      image: "../public/Images/sugarcane.jpeg",
+      image: "Images/sugarcane.jpeg",
       description:
         "Sugarcane is a tall perennial grass that is used to produce sugar and other products.",
       climate: "Sugarcane thrives in tropical and subtropical climates.",
@@ -214,7 +214,7 @@ export const crops = [
   },
   {
     Tea: {
-      image: "../public/Images/tea.jpg",
+      image: "Images/tea.jpg",
       description:
         "Tea is a beverage made by steeping dried tea leaves in hot water.",
       climate:

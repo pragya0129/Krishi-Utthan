@@ -8,7 +8,7 @@ const ProfileCard = ({ name, profile, year, tech, image }) => {
     >
       <div className="flex  gap-7  justify-center items-center w-[400px] ">
         <div className=" h-[12rem] w-[12rem] object-contain rounded-full overflow-y-hidden ml-4">
-          <img src={image} />
+          <img className="profile" src={image} />
         </div>
 
         <div className="mr-3">

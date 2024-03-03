@@ -26,8 +26,8 @@ function App() {
   return (
     <div className="max-w-screen min-h-screen bg-richblack-900 flex flex-col">
       <div className="navigation">
-        <img src="/public/Images/name.png" alt="logo" />
-        <ul className="nav-links bg-gradient-to-r from-sky-400 to-gray-300 ">
+        <img src="Images/name.png" alt="logo" />
+        <ul className="nav-links bg-gradient-to-r from-sky-600 to-blue-300 ">
           <li>
             <a onClick={() => scrollToSection("home")}>Home</a>
           </li>
@@ -88,7 +88,7 @@ function App() {
       </div>
 
       <div className="advice" id="advice">
-        <img src="/public/quotes.gif" width="80px"></img>
+        <img src="quotes.gif" width="80px"></img>
         <YellowHighlight text="Expert Advice" />
         <ExpertAdvice />
       </div>
