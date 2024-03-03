@@ -1,8 +1,11 @@
-****Krishi उत्थान****
+<h1>Krishi उत्थान</h1>
 
-Website : https://krishi-utthan.surge.sh/
+Website : https://krishi-utthan.surge.sh/   <br>
+Preview Video: https://drive.google.com/file/d/1YKUtJzfQdkIwkU40HqF0fQl7F2qT2QP7/view?usp=drive_link
 
-![logo (1)](https://github.com/pragya0129/Krishi-Utthan/assets/63705141/75c86429-8ae0-48ce-b29f-ebe0d2a0ed2e)
+![logo (1) (2)](https://github.com/pragya0129/Krishi-Utthan/assets/63705141/84348a0f-d6fc-4cb8-a66c-3717c76a4ca0)
+
+
 
 About:- Krishi Utthan is a comprehensive platform empowering farmers with essential tools and information to optimize their agricultural practices. Seamlessly blending traditional wisdom with modern technology, Krishi Utthan offers personalized recommendations and valuable insights for informed decision-making.
 
