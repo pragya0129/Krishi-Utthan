@@ -9,7 +9,7 @@ function Home() {
       </div>
       <br></br>
       <p className="animtext">
-        Where Tradition Meets Technology for Sustainable Agriculture.
+        "Where Tradition Meets Technology for Sustainable Agriculture."
       </p>
       <br></br>
       <div className="text">

@@ -24,10 +24,12 @@
   align-items: center;
   font-size: 1.1rem;
   max-width: 600px;
-  color: #ffffff;
+
+  color: #ffffffcd;
   font-weight: lighter;
 }
 
 .animtext {
-  color: #07aeae;
+  color: #91f7f7;
+  font-family: cursive;
 }

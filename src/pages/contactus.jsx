@@ -16,11 +16,11 @@ const ContactUs = () => {
 
       <div>
         <p className="text-base  mt-5">
-          We are team <YellowHighlight text={" DARAI GHODA "} /> from SRM
+          We are team <YellowHighlight text={" DARIAI GHODA "} /> from SRM
           Institute of Science And Technology
         </p>
       </div>
-      
+
       <div className="flex flex-row flex-wrap gap-14 w-[60%] rounded-md mt-14">
         <ProfileCard
           name={"Pragya Gaur"}
